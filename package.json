@@ -1,86 +1,64 @@
 {
-  "_from": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
-  "_id": "stratum-pool@0.1.6",
+  "_from": "git+https://github.com/mardock2009/Ravencoin-stratum-server.git",
+  "_id": "stratum-pool@1.0.1",
   "_inBundle": false,
+  "_integrity": "",
   "_location": "/stratum-pool",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "stratum-pool@git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
-    "name": "stratum-pool",
-    "escapedName": "stratum-pool",
-    "rawSpec": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
-    "saveSpec": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
-    "fetchSpec": "https://github.com/RavenCommunity/kawpow-stratum-pool.git",
+    "raw": "git+https://github.com/mardock2009/Ravencoin-stratum-server.git",
+    "rawSpec": "git+https://github.com/mardock2009/Ravencoin-stratum-server.git",
+    "saveSpec": "git+https://github.com/mardock2009/Ravencoin-stratum-server.git",
+    "fetchSpec": "git+https://github.com/mardock2009/Ravencoin-stratum-server.git",
     "gitCommittish": null
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git#c66ba109e7de88edc46dd70f36aa9c7cea7d7add",
-  "_spec": "stratum-pool@git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
-  "_where": "",
+  "_resolved": "git+https://github.com/cryptopoolorg/cyberpool-ravencoin-stratum.git",
+  "_spec": "git+https://github.com/cryptopoolorg/cyberpool-ravencoin-stratum.git",
+  "_where": "/home/pool/cyberpool-ravencoin-stratum",
   "author": {
-    "name": "Traysi"
+    "name": "Cyber Pool"
   },
   "bugs": {
-    "url": "https://github.com/RavenCommunity/kawpow-stratum-pool/issues"
+    "url": "https://github.com/mardock2009/Ravencoin-stratum-server/issues"
   },
-  "bundleDependencies": {
-  "logger": "0.0.1"
-  },
+  "bundleDependencies": false,
   "contributors": [
     {
-      "name": "Jeremy Anderson"
-    },
-    {
-      "name": "Matthew Little"
-    },
-    {
-      "name": "vekexasia"
-    },
-    {
-      "name": "TheSeven"
-    },
-    {
-      "name": "fellu"
-    },
-    {
-      "name": "anduck"
+      "name": "Cyber Harry"
     }
   ],
   "dependencies": {
-    "async": "*",
-    "base58-native": "*",
+    "base58-native": "^0.1.4",
     "big-integer": "^1.6.48",
-    "bignum": "^0.13.1",
-    "bitcoinjs-lib": "git+https://github.com/bitcoinjs/bitcoinjs-lib.git",
-    "merkle-bitcoin": "git+https://github.com/Nur1Labs/merkle-bitcoin.git",
-    "promise": "*",
-    "sha3": "*"
+    "bitcoinjs-lib": "^5.2.0",
+    "merkle-bitcoin": "^1.0.2",
+    "promise": "^8.1.0"
   },
   "deprecated": false,
-  "description": "High performance Stratum poolserver in Node.js",
+  "description": "High performance Stratum Server in Node.js for Ravencoin",
   "engines": {
-    "node": ">=7"
+    "node": ">=11.15.0"
   },
-  "homepage": "https://github.com/RavenCommunity/kawpow-stratum-pool",
+  "homepage": "https://github.com/mardock2009/Ravencoin-stratum-server",
   "keywords": [
     "stratum",
     "mining",
-    "pool",
     "server",
-    "poolserver",
-    "bitcoin",
+    "stratumserver",
     "Ravencoin",
-    "kawpow"
+    "KawPoW"
   ],
-  "license": "GPL-2.0",
+  "license": "GPL-3.0",
   "main": "lib/index.js",
   "name": "stratum-pool",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git"
+    "url": "git+https://github.com/mardock2009/Ravencoin-stratum-server.git"
   },
-  "version": "0.1.6"
+  "version": "1.0.1"
 }
